@@ -1,0 +1,83 @@
+/*==================== GOOGLE FONTS ====================*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;1,400&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f5f5f5;
+    font-family:"Poppins", sans-serif;
+    margin:0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height:100vh;
+
+
+}
+
+
+h1{
+    color:rgb(179,131,226);
+    text-align: center;
+    font-size: 4rem;
+    opacity:0.4rem;
+}
+
+form{
+    
+    max-width:100%;
+    width:400px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.input{
+    font-size: 2rem;
+    font-family: inherit;
+    color:red;
+    padding:1rem 2rem;
+    display:block;
+    width:100%;
+    border:none;
+    outline:none;
+}
+
+
+.input::placeholder{
+    color: #d5d5d5;
+}
+
+
+.todos{
+    background-color: #fff;
+    padding:0;
+    margin:0;
+    list-style-type: none;
+}
+
+
+.todos li{
+    border-top: solid rgba(255, 0, 0, 0.414);
+    padding:1rem 2rem;
+    font-size: 1.5rem;
+    cursor:pointer;
+    color:blue;
+}
+
+
+.todos li.completed{
+    text-decoration:line-through;
+    color:#b6b6b6;
+}
+
+
+small{
+    color:#b5b5b5;
+    margin-top:1rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 1rem;
+}

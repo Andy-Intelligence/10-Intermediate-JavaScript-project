@@ -1,0 +1,88 @@
+/*==================== GOOGLE FONTS ====================*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;1,400&display=swap');
+
+
+*{
+    
+    box-sizing: border-box;
+    
+
+}
+
+body{
+    font-family:"Poppins", sans-serif;
+    margin:0;
+    min-height:100vh;
+    background-color:gainsboro;
+    margin:0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quiz-container{
+    background-color:white;
+    border-radius:5px;
+    box-shadow:0 0 10px 10px rgba(0,0,0,0.1);
+    width:600px;
+    max-width:100%;
+}
+
+
+.quiz-header{
+    padding:2rem;
+}
+
+ul {
+    list-style-type:none;
+    padding:0;
+    margin:1rem 0;
+}
+
+ul li{
+    font-size: 1.5rem;
+    
+    margin:1rem 0;
+
+}
+
+
+ul li label{
+    
+    cursor:pointer;
+    
+
+}
+
+button{
+    background-color: purple;
+    border:none;
+    color:white;
+    display:block;
+    font-family:inherit;
+    font-size:1.5rem;
+    width:100%;
+    padding:1.4rem;
+    cursor:pointer;
+}
+button:hover{
+    background-color: pink;
+}
+
+h2{
+    padding:2rem;
+    text-align:center;
+    margin-left:0 ;
+    color:rgb(250, 5, 189)
+    
+}
+
+button:focus{
+    background-color:palevioletred;
+    outline:none;
+}
+
+h1{
+    color:purple;
+    text-align: center;
+}

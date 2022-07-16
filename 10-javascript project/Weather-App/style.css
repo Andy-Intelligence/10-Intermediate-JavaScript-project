@@ -1,0 +1,57 @@
+/*==================== GOOGLE FONTS ====================*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;1,400&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family:"Poppins", sans-serif;
+    margin:0;
+    background: linear-gradient(300deg, gray, rgb(0, 221, 255));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+
+
+input{
+    font-size: 1rem;
+    padding:1rem;
+    border:none;
+    border-radius: 25px;
+    box-shadow:0 4px 0px rgba(0,0,0,0.2) ;
+    font-family: inherit;
+    background-color: #fff;
+    min-width: 300px;
+}
+
+
+input:focus{
+    outline:none;
+}
+
+.weather{
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+.weather h2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+
+.weather small{
+    font-size:1rem;
+}
+
+/* .weather img{
+    transform: scale(2);
+} */
